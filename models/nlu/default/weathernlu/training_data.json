@@ -1,0 +1,2809 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "text": "hey where to eat located at san francisco",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 41
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please where to eat in the area of new york city",
+        "entities": [
+          {
+            "start": 45,
+            "entity": "city",
+            "value": "new york",
+            "end": 53
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat located at new york",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "new york",
+            "end": 39
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find where to eat in the area of atlanta",
+        "entities": [
+          {
+            "start": 37,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 44
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please find where to eat at san francisco city",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 51
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please find places to eat in the area of san francisco city",
+        "entities": [
+          {
+            "start": 51,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 64
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat in the area of new york",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "new york",
+            "end": 43
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "find where to eat at atlanta",
+        "entities": [
+          {
+            "start": 21,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 28
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please find places to eat located at san francisco",
+        "entities": [
+          {
+            "start": 43,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 56
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find where to eat at atlanta city",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 31
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "where to eat at san francisco",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 29
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please places to eat located at atlanta",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey restaurants at san francisco city",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 32
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please where to eat in the area of new york",
+        "entities": [
+          {
+            "start": 39,
+            "entity": "city",
+            "value": "new york",
+            "end": 47
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "where to eat at atlanta",
+        "entities": [
+          {
+            "start": 16,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 23
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please where to eat in the area of san francisco city",
+        "entities": [
+          {
+            "start": 45,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 58
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find restaurants located at atlanta city",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please places to eat located at san francisco city",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 45
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey restaurants in the area of san francisco",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 44
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find where to eat at atlanta",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 32
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find places to eat in the area of atlanta city",
+        "entities": [
+          {
+            "start": 37,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 44
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello places to eat at new york",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "city",
+            "value": "new york",
+            "end": 31
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please find restaurants in the area of atlanta",
+        "entities": [
+          {
+            "start": 42,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 49
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please restaurants located at atlanta",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 37
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "places to eat located at new york",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "city",
+            "value": "new york",
+            "end": 33
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please restaurants located at new york",
+        "entities": [
+          {
+            "start": 34,
+            "entity": "city",
+            "value": "new york",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello find places to eat located at new york city",
+        "entities": [
+          {
+            "start": 36,
+            "entity": "city",
+            "value": "new york",
+            "end": 44
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey where to eat at new york city",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "city",
+            "value": "new york",
+            "end": 28
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please places to eat located at san francisco",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 48
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find places to eat in the area of new york city",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "new york",
+            "end": 46
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello restaurants in the area of new york",
+        "entities": [
+          {
+            "start": 33,
+            "entity": "city",
+            "value": "new york",
+            "end": 41
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please find where to eat at new york city",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "city",
+            "value": "new york",
+            "end": 40
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings find places to eat located at san francisco",
+        "entities": [
+          {
+            "start": 40,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 53
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello find restaurants in the area of new york city",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "new york",
+            "end": 46
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello restaurants located at new york",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "city",
+            "value": "new york",
+            "end": 37
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find where to eat at new york city",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "new york",
+            "end": 36
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please restaurants in the area of new york city",
+        "entities": [
+          {
+            "start": 37,
+            "entity": "city",
+            "value": "new york",
+            "end": 45
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find restaurants in the area of new york city",
+        "entities": [
+          {
+            "start": 39,
+            "entity": "city",
+            "value": "new york",
+            "end": 47
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find restaurants at san francisco",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 37
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi restaurants in the area of san francisco",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 43
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello places to eat at atlanta",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 30
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello find where to eat at atlanta city",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 34
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings places to eat located at atlanta city",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find places to eat located at new york",
+        "entities": [
+          {
+            "start": 34,
+            "entity": "city",
+            "value": "new york",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find restaurants in the area of san francisco",
+        "entities": [
+          {
+            "start": 36,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 49
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey restaurants at new york",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "city",
+            "value": "new york",
+            "end": 27
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi places to eat at san francisco city",
+        "entities": [
+          {
+            "start": 20,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 33
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please find restaurants located at san francisco city",
+        "entities": [
+          {
+            "start": 45,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 58
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello find where to eat at atlanta",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 34
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey where to eat located at new york",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "new york",
+            "end": 36
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please restaurants at new york",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "new york",
+            "end": 36
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please places to eat in the area of new york",
+        "entities": [
+          {
+            "start": 46,
+            "entity": "city",
+            "value": "new york",
+            "end": 54
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find restaurants located at san francisco city",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 44
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat at san francisco",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 36
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please find restaurants located at san francisco city",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 51
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please restaurants in the area of san francisco",
+        "entities": [
+          {
+            "start": 40,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 53
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find restaurants located at new york",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "new york",
+            "end": 39
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey where to eat located at atlanta",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 35
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find where to eat at atlanta",
+        "entities": [
+          {
+            "start": 28,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 35
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings places to eat at san francisco",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 40
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please find where to eat at atlanta city",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 39
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find restaurants at san francisco",
+        "entities": [
+          {
+            "start": 27,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 40
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please find where to eat in the area of atlanta city",
+        "entities": [
+          {
+            "start": 50,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 57
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat located at atlanta",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 38
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings please find restaurants located at atlanta",
+        "entities": [
+          {
+            "start": 45,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 52
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello restaurants in the area of san francisco",
+        "entities": [
+          {
+            "start": 33,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 46
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello restaurants located at atlanta",
+        "entities": [
+          {
+            "start": 29,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 36
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please find places to eat in the area of atlanta city",
+        "entities": [
+          {
+            "start": 47,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 54
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find places to eat located at new york city",
+        "entities": [
+          {
+            "start": 37,
+            "entity": "city",
+            "value": "new york",
+            "end": 45
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi please restaurants at san francisco city",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 38
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings where to eat located at new york",
+        "entities": [
+          {
+            "start": 34,
+            "entity": "city",
+            "value": "new york",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find places to eat at atlanta",
+        "entities": [
+          {
+            "start": 25,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 32
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat in the area of san francisco city",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 48
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings places to eat in the area of new york city",
+        "entities": [
+          {
+            "start": 39,
+            "entity": "city",
+            "value": "new york",
+            "end": 47
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find places to eat in the area of atlanta city",
+        "entities": [
+          {
+            "start": 41,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 48
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find places to eat in the area of new york",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "new york",
+            "end": 46
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please find where to eat located at atlanta",
+        "entities": [
+          {
+            "start": 42,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 49
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi places to eat in the area of new york city",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "city",
+            "value": "new york",
+            "end": 40
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi restaurants in the area of new york",
+        "entities": [
+          {
+            "start": 30,
+            "entity": "city",
+            "value": "new york",
+            "end": 38
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings places to eat located at atlanta",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings where to eat in the area of san francisco",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 51
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find places to eat in the area of san francisco city",
+        "entities": [
+          {
+            "start": 41,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 54
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please places to eat in the area of atlanta",
+        "entities": [
+          {
+            "start": 40,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 47
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi where to eat at atlanta city",
+        "entities": [
+          {
+            "start": 19,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 26
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello find where to eat located at atlanta",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please restaurants in the area of atlanta",
+        "entities": [
+          {
+            "start": 38,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 45
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hi find places to eat in the area of san francisco",
+        "entities": [
+          {
+            "start": 37,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 50
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find restaurants in the area of san francisco city",
+        "entities": [
+          {
+            "start": 39,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 52
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please places to eat at san francisco",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 37
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey restaurants in the area of new york city",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "new york",
+            "end": 39
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please find where to eat in the area of new york",
+        "entities": [
+          {
+            "start": 40,
+            "entity": "city",
+            "value": "new york",
+            "end": 48
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey find restaurants at new york city",
+        "entities": [
+          {
+            "start": 24,
+            "entity": "city",
+            "value": "new york",
+            "end": 32
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings find restaurants in the area of atlanta city",
+        "entities": [
+          {
+            "start": 42,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 49
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please where to eat located at atlanta",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 42
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "please where to eat at new york",
+        "entities": [
+          {
+            "start": 23,
+            "entity": "city",
+            "value": "new york",
+            "end": 31
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "greetings find where to eat at new york city",
+        "entities": [
+          {
+            "start": 31,
+            "entity": "city",
+            "value": "new york",
+            "end": 39
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "restaurants at new york city",
+        "entities": [
+          {
+            "start": 15,
+            "entity": "city",
+            "value": "new york",
+            "end": 23
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please find places to eat at san francisco",
+        "entities": [
+          {
+            "start": 35,
+            "entity": "city",
+            "value": "san francisco",
+            "end": 48
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hello please find places to eat in the area of atlanta",
+        "entities": [
+          {
+            "start": 47,
+            "entity": "city",
+            "value": "atlanta",
+            "end": 54
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "hey please find where to eat at new york",
+        "entities": [
+          {
+            "start": 32,
+            "entity": "city",
+            "value": "new york",
+            "end": 40
+          }
+        ],
+        "intent": "findRestaurantsByCity"
+      },
+      {
+        "text": "how are things going hola hola",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon whats up",
+        "intent": "greet"
+      },
+      {
+        "text": "hello hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hey sup howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hola whatsup howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "good day hello howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "sup are you around?",
+        "intent": "greet"
+      },
+      {
+        "text": "hello morning hola",
+        "intent": "greet"
+      },
+      {
+        "text": "whats up hola howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hola hey",
+        "intent": "greet"
+      },
+      {
+        "text": "sup hey hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello whatsup hi",
+        "intent": "greet"
+      },
+      {
+        "text": "good night morning",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon howdy hey",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy greetings howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy how are things going hola",
+        "intent": "greet"
+      },
+      {
+        "text": "morning hey hola",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around? are you there",
+        "intent": "greet"
+      },
+      {
+        "text": "hey good afternoon howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "how are you doing howdy hi",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around hello hi",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy greetings hola",
+        "intent": "greet"
+      },
+      {
+        "text": "whatsup sup",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy hey howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hola how is it going hey",
+        "intent": "greet"
+      },
+      {
+        "text": "how are things going hey hola",
+        "intent": "greet"
+      },
+      {
+        "text": "morning how are you",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there hola hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hello are you around?",
+        "intent": "greet"
+      },
+      {
+        "text": "whatsup hola hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hola good morning hola",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon good afternoon",
+        "intent": "greet"
+      },
+      {
+        "text": "hi hola hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello morning hello",
+        "intent": "greet"
+      },
+      {
+        "text": "how is it going hola",
+        "intent": "greet"
+      },
+      {
+        "text": "hey how are you",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon hi hello",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around howdy hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello good afternoon",
+        "intent": "greet"
+      },
+      {
+        "text": "hi hi hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hello good morning hello",
+        "intent": "greet"
+      },
+      {
+        "text": "good night hi hola",
+        "intent": "greet"
+      },
+      {
+        "text": "whats up sup",
+        "intent": "greet"
+      },
+      {
+        "text": "hola whats up hello",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon hola howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "good afternoon are you there",
+        "intent": "greet"
+      },
+      {
+        "text": "hi how is it going hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hi hola hola",
+        "intent": "greet"
+      },
+      {
+        "text": "morning howdy howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hey good afternoon hi",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around sup",
+        "intent": "greet"
+      },
+      {
+        "text": "hey sup hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hey howdy hello",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy are you there howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "morning are you around?",
+        "intent": "greet"
+      },
+      {
+        "text": "hi sup hi",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there hello howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy are you around? hello",
+        "intent": "greet"
+      },
+      {
+        "text": "whats up hola hello",
+        "intent": "greet"
+      },
+      {
+        "text": "how are things going are you there",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy hey hi",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy good afternoon hola",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around? howdy hi",
+        "intent": "greet"
+      },
+      {
+        "text": "how are you doing whats up",
+        "intent": "greet"
+      },
+      {
+        "text": "whatsup hi",
+        "intent": "greet"
+      },
+      {
+        "text": "hi are you there howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "whats up howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hey hola",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy good night hey",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there greetings",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy how is it going hola",
+        "intent": "greet"
+      },
+      {
+        "text": "whats up hey howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "good morning hola hello",
+        "intent": "greet"
+      },
+      {
+        "text": "hola how is it going hi",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around are you around",
+        "intent": "greet"
+      },
+      {
+        "text": "hey hello hey",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy how is it going hello",
+        "intent": "greet"
+      },
+      {
+        "text": "hello are you around? hello",
+        "intent": "greet"
+      },
+      {
+        "text": "morning hi hello",
+        "intent": "greet"
+      },
+      {
+        "text": "good night greetings",
+        "intent": "greet"
+      },
+      {
+        "text": "hola good afternoon howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "hello hola hello",
+        "intent": "greet"
+      },
+      {
+        "text": "hello whatsup hola",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around are you around?",
+        "intent": "greet"
+      },
+      {
+        "text": "good day hey",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy good afternoon hi",
+        "intent": "greet"
+      },
+      {
+        "text": "are you there are you around?",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy how are you hey",
+        "intent": "greet"
+      },
+      {
+        "text": "hola hello hola",
+        "intent": "greet"
+      },
+      {
+        "text": "whatsup hi hola",
+        "intent": "greet"
+      },
+      {
+        "text": "good morning hi",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy sup hola",
+        "intent": "greet"
+      },
+      {
+        "text": "how are you doing whatsup",
+        "intent": "greet"
+      },
+      {
+        "text": "hey whats up",
+        "intent": "greet"
+      },
+      {
+        "text": "whatsup hola howdy",
+        "intent": "greet"
+      },
+      {
+        "text": "howdy hola hey",
+        "intent": "greet"
+      },
+      {
+        "text": "are you around? hola hola",
+        "intent": "greet"
+      },
+      {
+        "text": "hi good afternoon",
+        "intent": "greet"
+      },
+      {
+        "text": "heading out chao ttyl got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go ttyl chau ttyl leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now adios goodbye have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go farewell ttyl chau im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now adieu farewell farewell got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "adieu bye bye talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go chao gtg bye have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving adios adios adieu going out",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now adios goodbye going out",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go ttyl farewell ttyl leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go adieu adios adios going out",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go bye bye chao heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go chao bye chau got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "going out chao adieu chau talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go chao adios goodbye got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go farewell ttyl adios im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "adios gtg gtg have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go chau farewell adieu going out",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon adieu ttyl adieu im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go adieu ttyl gtg have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "adios gtg talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out farewell farewell ttyl leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later gtg ttyl goodbye talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later goodbye chau talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go adieu bye adieu im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go adios bye bye",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon adieu goodbye adios have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go goodbye chau bye got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go ttyl goodbye got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go farewell farewell bye have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now goodbye adios chao leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go bye ttyl chao",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon adieu ttyl chao",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon farewell chao adieu talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "chao ttyl adios",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later bye adios goodbye heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go adios goodbye chau got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go adios ttyl farewell",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon goodbye chao adieu going out",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go adios adieu chao going out",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later farewell farewell chau leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "bye gtg chau leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "going out chau gtg adios im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later ttyl goodbye ttyl have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now bye chao adieu im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later goodbye chao adios",
+        "intent": "bye"
+      },
+      {
+        "text": "going out farewell ttyl gtg heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go gtg gtg adios leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go chao chao gtg going out",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now adieu chao adios going out",
+        "intent": "bye"
+      },
+      {
+        "text": "going out gtg ttyl farewell heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving farewell gtg farewell talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out ttyl chau im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon bye chao chau im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "farewell ttyl gtg im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon goodbye gtg goodbye going out",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later goodbye gtg ttyl have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon adieu farewell goodbye im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving bye chao im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now gtg chau adieu",
+        "intent": "bye"
+      },
+      {
+        "text": "goodbye adieu chao got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving ttyl adieu goodbye going out",
+        "intent": "bye"
+      },
+      {
+        "text": "ttyl goodbye gtg talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving farewell ttyl goodbye talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out chau adieu farewell have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later chao adios chau im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out gtg goodbye gtg talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later ttyl bye bye talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later ttyl chao going out",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go bye chau chao got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "gtg im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later ttyl chau have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "bye adieu gtg have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go chao goodbye got to go",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go farewell farewell farewell",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving farewell goodbye farewell leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon chao chao leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go goodbye ttyl farewell going out",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go goodbye chao gtg",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon farewell ttyl gtg talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you later adieu adieu bye",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out adios ttyl goodbye have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out chau goodbye goodbye going out",
+        "intent": "bye"
+      },
+      {
+        "text": "bye bye adieu talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go bye adios adios talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "farewell chao gtg im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "bye gtg goodbye leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "heading out adios chao chao have to go",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving chau gtg heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now adios bye gtg",
+        "intent": "bye"
+      },
+      {
+        "text": "farewell adieu ttyl leaving",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go adios ttyl going out",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now bye gtg going out",
+        "intent": "bye"
+      },
+      {
+        "text": "talk to you soon chau ttyl gtg heading out",
+        "intent": "bye"
+      },
+      {
+        "text": "have to go chao goodbye chau talk to you later",
+        "intent": "bye"
+      },
+      {
+        "text": "going out goodbye chao ttyl im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "got to go chao chau im leaving now",
+        "intent": "bye"
+      },
+      {
+        "text": "im leaving now ttyl chao goodbye talk to you soon",
+        "intent": "bye"
+      },
+      {
+        "text": "leaving bye gtg ttyl going out",
+        "intent": "bye"
+      },
+      {
+        "text": "im ok with that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "you got that affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "you're goddamn yep",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes that is fine",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes si please",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes that is allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative si yes sir correcto",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto correcto ok correcto",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative correct allright right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes yep yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yes sir right correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright right yes to that ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes correct allright yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir yes yes to that yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right ok yep allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right right right correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes affirmative yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "ok correct yep right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir yes sir right si",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto yes to that yes sir allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir yes si yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes allright right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright yep correct ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right right yep right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that yes to that si",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yes correct yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir yep correct correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that yes sir yes to that right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir right correcto si",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that yep correct yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes right affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that allright right yes sir",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes allright yep correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative right ok yep",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto right correcto right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that allright ok allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir yes yes correcto",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative right correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that right allright correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correct yep correcto yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes allright yes to that yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that affirmative right yep",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "ok ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right allright allright ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yep right allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes yep yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright yep yep yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative correct allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative right correct correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright yep correcto allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si right affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright right correct ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yep correcto yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto affirmative yes sir affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yes sir right yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correct correcto ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si affirmative yes sir yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto yep yes si",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative correct correct yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes sir affirmative yes sir",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si affirmative allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto affirmative correcto right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right right yep yes sir",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right correct right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right si correct right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto si yes ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si ok yes ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative ok affirmative correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative ok right allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright yes sir ok allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes to that si yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si si right allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright yes to that si yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si right yep right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright si allright",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright allright si correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto right yes to that yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes yes si ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes to that allright right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep correcto allright si",
+        "intent": "affirmative"
+      },
+      {
+        "text": "ok allright right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "affirmative right correcto yes sir",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right allright right correct",
+        "intent": "affirmative"
+      },
+      {
+        "text": "allright right yep right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes sir si affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "ok right yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right right correcto yes to that",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correct yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto correcto allright right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "si correcto right ok",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto right right affirmative",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yes to that right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "yep yes correct right",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto correcto affirmative yep",
+        "intent": "affirmative"
+      },
+      {
+        "text": "correcto yes sir yes sir",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right yes sir yes to that yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "right affirmative right yes",
+        "intent": "affirmative"
+      },
+      {
+        "text": "nope incorrect please",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir no sir no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "nope definitely no",
+        "intent": "negative"
+      },
+      {
+        "text": "no definitely no nope",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir its not ok no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir not good for me wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir no",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect its not correct not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir wrong nope",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir its not correct no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct nope no",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir dont want that incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "that is wrong wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct definitely no",
+        "intent": "negative"
+      },
+      {
+        "text": "negative ok its not fine nope",
+        "intent": "negative"
+      },
+      {
+        "text": "negative no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "nope dont desire that",
+        "intent": "negative"
+      },
+      {
+        "text": "negative not what i want wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "no wrong no",
+        "intent": "negative"
+      },
+      {
+        "text": "negative dont desire that negative",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect not correct nope",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong nope",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong dont desire that wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect not good for me not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "nope its bad nope",
+        "intent": "negative"
+      },
+      {
+        "text": "nope no nope",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir not what i want wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "not good negative",
+        "intent": "negative"
+      },
+      {
+        "text": "negative incorrect not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "negative nope wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong that is bad",
+        "intent": "negative"
+      },
+      {
+        "text": "negative its not ok no",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect incorrect nope",
+        "intent": "negative"
+      },
+      {
+        "text": "nope im not good with that no",
+        "intent": "negative"
+      },
+      {
+        "text": "negative nope no",
+        "intent": "negative"
+      },
+      {
+        "text": "nope dont agree on that incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "negative wrong negative",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong dont agree on that wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "negative dont agree on that",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect dont desire that no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect not good no",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct not correct negative",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong dont want that",
+        "intent": "negative"
+      },
+      {
+        "text": "no dont want that no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "no definitely no wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "negative wrong no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect no negative",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong that is bad no",
+        "intent": "negative"
+      },
+      {
+        "text": "nope im not good with that negative",
+        "intent": "negative"
+      },
+      {
+        "text": "nope",
+        "intent": "negative"
+      },
+      {
+        "text": "negative its not ok not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect dont want that incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong not what i want nope",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong no sir please",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir incorrect no",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir its not correct not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong wrong no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong wrong incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "negative definitely no negative",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong nope incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "negative dont mean that negative",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct not good wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "negative negative nope",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct ok its not fine wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect not good",
+        "intent": "negative"
+      },
+      {
+        "text": "nope ok its not fine no",
+        "intent": "negative"
+      },
+      {
+        "text": "negative no",
+        "intent": "negative"
+      },
+      {
+        "text": "negative didnt meant that",
+        "intent": "negative"
+      },
+      {
+        "text": "dont want that no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct not good no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct not what i want negative",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "negative wrong incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct im not good with that",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir its not correct wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "no no",
+        "intent": "negative"
+      },
+      {
+        "text": "nope didnt meant that not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "nope not what i want wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "negative incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect not good negative",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong im not good with that",
+        "intent": "negative"
+      },
+      {
+        "text": "dont mean that not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "nope dont mean that no",
+        "intent": "negative"
+      },
+      {
+        "text": "no incorrect incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "its bad no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "no im not good with that no",
+        "intent": "negative"
+      },
+      {
+        "text": "im not good with that wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir that is wrong incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "nope not good negative",
+        "intent": "negative"
+      },
+      {
+        "text": "its not correct not correct",
+        "intent": "negative"
+      },
+      {
+        "text": "not correct not correct no",
+        "intent": "negative"
+      },
+      {
+        "text": "wrong dont desire that incorrect",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir dont mean that wrong",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect bad",
+        "intent": "negative"
+      },
+      {
+        "text": "no sir not good for me",
+        "intent": "negative"
+      },
+      {
+        "text": "incorrect nope no sir",
+        "intent": "negative"
+      },
+      {
+        "text": "not what i want no sir",
+        "intent": "negative"
+      }
+    ],
+    "entity_synonyms": [],
+    "lookup_tables": []
+  }
+}

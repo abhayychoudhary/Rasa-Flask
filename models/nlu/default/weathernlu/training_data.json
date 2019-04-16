@@ -1,1205 +1,1207 @@
 {
   "rasa_nlu_data": {
     "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [],
     "common_examples": [
       {
+        "entities": [
+          {
+            "end": 41,
+            "start": 28,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hey where to eat located at san francisco",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 41
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 53,
+            "start": 45,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "greetings please where to eat in the area of new york city",
-        "entities": [
-          {
-            "start": 45,
-            "entity": "city",
-            "value": "new york",
-            "end": 53
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 39,
+            "start": 31,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "please where to eat located at new york",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "new york",
-            "end": 39
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 44,
+            "start": 37,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey find where to eat in the area of atlanta",
-        "entities": [
-          {
-            "start": 37,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 44
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 51,
+            "start": 38,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings please find where to eat at san francisco city",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 51
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings please find places to eat in the area of san francisco city",
         "entities": [
           {
+            "end": 64,
             "start": 51,
-            "entity": "city",
             "value": "san francisco",
-            "end": 64
+            "entity": "city"
           }
         ],
+        "text": "greetings please find places to eat in the area of san francisco city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 43,
+            "start": 35,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "please where to eat in the area of new york",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "new york",
-            "end": 43
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "find where to eat at atlanta",
         "entities": [
           {
+            "end": 28,
             "start": 21,
-            "entity": "city",
             "value": "atlanta",
-            "end": 28
+            "entity": "city"
           }
         ],
+        "text": "find where to eat at atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hello please find places to eat located at san francisco",
         "entities": [
           {
+            "end": 56,
             "start": 43,
-            "entity": "city",
             "value": "san francisco",
-            "end": 56
+            "entity": "city"
           }
         ],
+        "text": "hello please find places to eat located at san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 31,
+            "start": 24,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hi find where to eat at atlanta city",
-        "entities": [
-          {
-            "start": 24,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 31
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 29,
+            "start": 16,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "where to eat at san francisco",
-        "entities": [
-          {
-            "start": 16,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 29
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hi please places to eat located at atlanta",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 32,
+            "start": 19,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hey restaurants at san francisco city",
-        "entities": [
-          {
-            "start": 19,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 32
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 47,
+            "start": 39,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey please where to eat in the area of new york",
-        "entities": [
-          {
-            "start": 39,
-            "entity": "city",
-            "value": "new york",
-            "end": 47
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "where to eat at atlanta",
         "entities": [
           {
+            "end": 23,
             "start": 16,
-            "entity": "city",
             "value": "atlanta",
-            "end": 23
+            "entity": "city"
           }
         ],
+        "text": "where to eat at atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 58,
+            "start": 45,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings please where to eat in the area of san francisco city",
-        "entities": [
-          {
-            "start": 45,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 58
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "please find restaurants located at atlanta city",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 45,
+            "start": 32,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "please places to eat located at san francisco city",
-        "entities": [
-          {
-            "start": 32,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 45
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 44,
+            "start": 31,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hey restaurants in the area of san francisco",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 44
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 32,
+            "start": 25,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey find where to eat at atlanta",
-        "entities": [
-          {
-            "start": 25,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 32
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 44,
+            "start": 37,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hi find places to eat in the area of atlanta city",
-        "entities": [
-          {
-            "start": 37,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 44
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 31,
+            "start": 23,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello places to eat at new york",
-        "entities": [
-          {
-            "start": 23,
-            "entity": "city",
-            "value": "new york",
-            "end": 31
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 49,
+            "start": 42,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hi please find restaurants in the area of atlanta",
-        "entities": [
-          {
-            "start": 42,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 49
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 37,
+            "start": 30,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "please restaurants located at atlanta",
-        "entities": [
-          {
-            "start": 30,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 37
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 33,
+            "start": 25,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "places to eat located at new york",
-        "entities": [
-          {
-            "start": 25,
-            "entity": "city",
-            "value": "new york",
-            "end": 33
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 34,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey please restaurants located at new york",
-        "entities": [
-          {
-            "start": 34,
-            "entity": "city",
-            "value": "new york",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 44,
+            "start": 36,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello find places to eat located at new york city",
-        "entities": [
-          {
-            "start": 36,
-            "entity": "city",
-            "value": "new york",
-            "end": 44
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 28,
+            "start": 20,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey where to eat at new york city",
-        "entities": [
-          {
-            "start": 20,
-            "entity": "city",
-            "value": "new york",
-            "end": 28
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 48,
+            "start": 35,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hi please places to eat located at san francisco",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 48
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 46,
+            "start": 38,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey find places to eat in the area of new york city",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "new york",
-            "end": 46
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 41,
+            "start": 33,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello restaurants in the area of new york",
-        "entities": [
-          {
-            "start": 33,
-            "entity": "city",
-            "value": "new york",
-            "end": 41
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 40,
+            "start": 32,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey please find where to eat at new york city",
-        "entities": [
-          {
-            "start": 32,
-            "entity": "city",
-            "value": "new york",
-            "end": 40
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 53,
+            "start": 40,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings find places to eat located at san francisco",
-        "entities": [
-          {
-            "start": 40,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 53
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 46,
+            "start": 38,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello find restaurants in the area of new york city",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "new york",
-            "end": 46
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 37,
+            "start": 29,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello restaurants located at new york",
-        "entities": [
-          {
-            "start": 29,
-            "entity": "city",
-            "value": "new york",
-            "end": 37
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 36,
+            "start": 28,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "please find where to eat at new york city",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "new york",
-            "end": 36
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 45,
+            "start": 37,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hi please restaurants in the area of new york city",
-        "entities": [
-          {
-            "start": 37,
-            "entity": "city",
-            "value": "new york",
-            "end": 45
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 47,
+            "start": 39,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "please find restaurants in the area of new york city",
-        "entities": [
-          {
-            "start": 39,
-            "entity": "city",
-            "value": "new york",
-            "end": 47
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 37,
+            "start": 24,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hey find restaurants at san francisco",
-        "entities": [
-          {
-            "start": 24,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 37
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 43,
+            "start": 30,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hi restaurants in the area of san francisco",
-        "entities": [
-          {
-            "start": 30,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 43
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 30,
+            "start": 23,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello places to eat at atlanta",
-        "entities": [
-          {
-            "start": 23,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 30
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 34,
+            "start": 27,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello find where to eat at atlanta city",
-        "entities": [
-          {
-            "start": 27,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 34
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "greetings places to eat located at atlanta city",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 34,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey find places to eat located at new york",
-        "entities": [
-          {
-            "start": 34,
-            "entity": "city",
-            "value": "new york",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hey find restaurants in the area of san francisco",
         "entities": [
           {
+            "end": 49,
             "start": 36,
-            "entity": "city",
             "value": "san francisco",
-            "end": 49
+            "entity": "city"
           }
         ],
+        "text": "hey find restaurants in the area of san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 27,
+            "start": 19,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey restaurants at new york",
-        "entities": [
-          {
-            "start": 19,
-            "entity": "city",
-            "value": "new york",
-            "end": 27
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hi places to eat at san francisco city",
         "entities": [
           {
+            "end": 33,
             "start": 20,
-            "entity": "city",
             "value": "san francisco",
-            "end": 33
+            "entity": "city"
           }
         ],
+        "text": "hi places to eat at san francisco city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 58,
+            "start": 45,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings please find restaurants located at san francisco city",
-        "entities": [
-          {
-            "start": 45,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 58
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 34,
+            "start": 27,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello find where to eat at atlanta",
-        "entities": [
-          {
-            "start": 27,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 34
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 36,
+            "start": 28,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey where to eat located at new york",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "new york",
-            "end": 36
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 36,
+            "start": 28,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hello please restaurants at new york",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "new york",
-            "end": 36
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings please places to eat in the area of new york",
         "entities": [
           {
+            "end": 54,
             "start": 46,
-            "entity": "city",
             "value": "new york",
-            "end": 54
+            "entity": "city"
           }
         ],
+        "text": "greetings please places to eat in the area of new york",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 44,
+            "start": 31,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hi find restaurants located at san francisco city",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 44
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 36,
+            "start": 23,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "please where to eat at san francisco",
-        "entities": [
-          {
-            "start": 23,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 36
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 51,
+            "start": 38,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hi please find restaurants located at san francisco city",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 51
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 53,
+            "start": 40,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hello please restaurants in the area of san francisco",
-        "entities": [
-          {
-            "start": 40,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 53
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 39,
+            "start": 31,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hi find restaurants located at new york",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "new york",
-            "end": 39
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 35,
+            "start": 28,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey where to eat located at atlanta",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 35
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 35,
+            "start": 28,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "please find where to eat at atlanta",
-        "entities": [
-          {
-            "start": 28,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 35
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 40,
+            "start": 27,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings places to eat at san francisco",
-        "entities": [
-          {
-            "start": 27,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 40
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 39,
+            "start": 32,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey please find where to eat at atlanta city",
-        "entities": [
-          {
-            "start": 32,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 39
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "please find restaurants at san francisco",
         "entities": [
           {
+            "end": 40,
             "start": 27,
-            "entity": "city",
             "value": "san francisco",
-            "end": 40
+            "entity": "city"
           }
         ],
+        "text": "please find restaurants at san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings please find where to eat in the area of atlanta city",
         "entities": [
           {
+            "end": 57,
             "start": 50,
-            "entity": "city",
             "value": "atlanta",
-            "end": 57
+            "entity": "city"
           }
         ],
+        "text": "greetings please find where to eat in the area of atlanta city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 38,
+            "start": 31,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "please where to eat located at atlanta",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 38
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings please find restaurants located at atlanta",
         "entities": [
           {
+            "end": 52,
             "start": 45,
-            "entity": "city",
             "value": "atlanta",
-            "end": 52
+            "entity": "city"
           }
         ],
+        "text": "greetings please find restaurants located at atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hello restaurants in the area of san francisco",
         "entities": [
           {
+            "end": 46,
             "start": 33,
-            "entity": "city",
             "value": "san francisco",
-            "end": 46
+            "entity": "city"
           }
         ],
+        "text": "hello restaurants in the area of san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hello restaurants located at atlanta",
         "entities": [
           {
+            "end": 36,
             "start": 29,
-            "entity": "city",
             "value": "atlanta",
-            "end": 36
+            "entity": "city"
           }
         ],
+        "text": "hello restaurants located at atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 54,
+            "start": 47,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello please find places to eat in the area of atlanta city",
-        "entities": [
-          {
-            "start": 47,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 54
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 45,
+            "start": 37,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "please find places to eat located at new york city",
-        "entities": [
-          {
-            "start": 37,
-            "entity": "city",
-            "value": "new york",
-            "end": 45
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 38,
+            "start": 25,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "hi please restaurants at san francisco city",
-        "entities": [
-          {
-            "start": 25,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 38
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings where to eat located at new york",
         "entities": [
           {
+            "end": 42,
             "start": 34,
-            "entity": "city",
             "value": "new york",
-            "end": 42
+            "entity": "city"
           }
         ],
+        "text": "greetings where to eat located at new york",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hi find places to eat at atlanta",
         "entities": [
           {
+            "end": 32,
             "start": 25,
-            "entity": "city",
             "value": "atlanta",
-            "end": 32
+            "entity": "city"
           }
         ],
+        "text": "hi find places to eat at atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 48,
+            "start": 35,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "please where to eat in the area of san francisco city",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 48
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 47,
+            "start": 39,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "greetings places to eat in the area of new york city",
-        "entities": [
-          {
-            "start": 39,
-            "entity": "city",
-            "value": "new york",
-            "end": 47
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 48,
+            "start": 41,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "please find places to eat in the area of atlanta city",
-        "entities": [
-          {
-            "start": 41,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 48
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 46,
+            "start": 38,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey find places to eat in the area of new york",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "new york",
-            "end": 46
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 49,
+            "start": 42,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello please find where to eat located at atlanta",
-        "entities": [
-          {
-            "start": 42,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 49
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 40,
+            "start": 32,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hi places to eat in the area of new york city",
-        "entities": [
-          {
-            "start": 32,
-            "entity": "city",
-            "value": "new york",
-            "end": 40
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hi restaurants in the area of new york",
         "entities": [
           {
+            "end": 38,
             "start": 30,
-            "entity": "city",
             "value": "new york",
-            "end": 38
+            "entity": "city"
           }
         ],
+        "text": "hi restaurants in the area of new york",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "greetings places to eat located at atlanta",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 51,
+            "start": 38,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "greetings where to eat in the area of san francisco",
-        "entities": [
-          {
-            "start": 38,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 51
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "please find places to eat in the area of san francisco city",
         "entities": [
           {
+            "end": 54,
             "start": 41,
-            "entity": "city",
             "value": "san francisco",
-            "end": 54
+            "entity": "city"
           }
         ],
+        "text": "please find places to eat in the area of san francisco city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 47,
+            "start": 40,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey please places to eat in the area of atlanta",
-        "entities": [
-          {
-            "start": 40,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 47
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hi where to eat at atlanta city",
         "entities": [
           {
+            "end": 26,
             "start": 19,
-            "entity": "city",
             "value": "atlanta",
-            "end": 26
+            "entity": "city"
           }
         ],
+        "text": "hi where to eat at atlanta city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hello find where to eat located at atlanta",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hey please restaurants in the area of atlanta",
         "entities": [
           {
+            "end": 45,
             "start": 38,
-            "entity": "city",
             "value": "atlanta",
-            "end": 45
+            "entity": "city"
           }
         ],
+        "text": "hey please restaurants in the area of atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hi find places to eat in the area of san francisco",
         "entities": [
           {
+            "end": 50,
             "start": 37,
-            "entity": "city",
             "value": "san francisco",
-            "end": 50
+            "entity": "city"
           }
         ],
+        "text": "hi find places to eat in the area of san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "please find restaurants in the area of san francisco city",
         "entities": [
           {
+            "end": 52,
             "start": 39,
-            "entity": "city",
             "value": "san francisco",
-            "end": 52
+            "entity": "city"
           }
         ],
+        "text": "please find restaurants in the area of san francisco city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 37,
+            "start": 24,
+            "value": "san francisco",
+            "entity": "city"
+          }
+        ],
         "text": "please places to eat at san francisco",
-        "entities": [
-          {
-            "start": 24,
-            "entity": "city",
-            "value": "san francisco",
-            "end": 37
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 39,
+            "start": 31,
+            "value": "new york",
+            "entity": "city"
+          }
+        ],
         "text": "hey restaurants in the area of new york city",
-        "entities": [
-          {
-            "start": 31,
-            "entity": "city",
-            "value": "new york",
-            "end": 39
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "please find where to eat in the area of new york",
         "entities": [
           {
+            "end": 48,
             "start": 40,
-            "entity": "city",
             "value": "new york",
-            "end": 48
+            "entity": "city"
           }
         ],
+        "text": "please find where to eat in the area of new york",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hey find restaurants at new york city",
         "entities": [
           {
+            "end": 32,
             "start": 24,
-            "entity": "city",
             "value": "new york",
-            "end": 32
+            "entity": "city"
           }
         ],
+        "text": "hey find restaurants at new york city",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings find restaurants in the area of atlanta city",
         "entities": [
           {
+            "end": 49,
             "start": 42,
-            "entity": "city",
             "value": "atlanta",
-            "end": 49
+            "entity": "city"
           }
         ],
+        "text": "greetings find restaurants in the area of atlanta city",
         "intent": "findRestaurantsByCity"
       },
       {
+        "entities": [
+          {
+            "end": 42,
+            "start": 35,
+            "value": "atlanta",
+            "entity": "city"
+          }
+        ],
         "text": "hey please where to eat located at atlanta",
-        "entities": [
-          {
-            "start": 35,
-            "entity": "city",
-            "value": "atlanta",
-            "end": 42
-          }
-        ],
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "please where to eat at new york",
         "entities": [
           {
+            "end": 31,
             "start": 23,
-            "entity": "city",
             "value": "new york",
-            "end": 31
+            "entity": "city"
           }
         ],
+        "text": "please where to eat at new york",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "greetings find where to eat at new york city",
         "entities": [
           {
+            "end": 39,
             "start": 31,
-            "entity": "city",
             "value": "new york",
-            "end": 39
+            "entity": "city"
           }
         ],
+        "text": "greetings find where to eat at new york city",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "restaurants at new york city",
         "entities": [
           {
+            "end": 23,
             "start": 15,
-            "entity": "city",
             "value": "new york",
-            "end": 23
+            "entity": "city"
           }
         ],
+        "text": "restaurants at new york city",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hello please find places to eat at san francisco",
         "entities": [
           {
+            "end": 48,
             "start": 35,
-            "entity": "city",
             "value": "san francisco",
-            "end": 48
+            "entity": "city"
           }
         ],
+        "text": "hello please find places to eat at san francisco",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hello please find places to eat in the area of atlanta",
         "entities": [
           {
+            "end": 54,
             "start": 47,
-            "entity": "city",
             "value": "atlanta",
-            "end": 54
+            "entity": "city"
           }
         ],
+        "text": "hello please find places to eat in the area of atlanta",
         "intent": "findRestaurantsByCity"
       },
       {
-        "text": "hey please find where to eat at new york",
         "entities": [
           {
+            "end": 40,
             "start": 32,
-            "entity": "city",
             "value": "new york",
-            "end": 40
+            "entity": "city"
           }
         ],
+        "text": "hey please find where to eat at new york",
         "intent": "findRestaurantsByCity"
       },
       {
@@ -2802,8 +2804,6 @@
         "text": "not what i want no sir",
         "intent": "negative"
       }
-    ],
-    "entity_synonyms": [],
-    "lookup_tables": []
+    ]
   }
 }

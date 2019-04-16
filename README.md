@@ -1,5 +1,4 @@
-# Weatherbot Tutorial (using the latest release of Rasa NLU and Rasa Core)
-
+# RASA NLU Test Bot using Flask Get API 
 Rasa NLU and Rasa Core devs are doing an amazing job improving both of these libraries which results in code changes for one method or another. In fact, since I recorded a Wetherbot tutorial,
 
 

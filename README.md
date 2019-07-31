@@ -10,7 +10,7 @@ The code is build with Flask which can be access by the Get API
 
 ### Training the NLU model
 
-Training of the mode go to the Browser and just send a get request:
+Training of the mode go to the browser and just send a get request:
 
 2. ``` http://127.0.0.1:8080/train ```
 

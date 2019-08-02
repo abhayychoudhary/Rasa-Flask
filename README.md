@@ -12,7 +12,7 @@ The code is build with Flask which can be access by the Get API
 
 Training of the mode go to the browser and just send a get request:
 
-2. ``` http://127.0.0.1:8080/train ```
+2. ``` http://127.0.0.1:5000/train ```
 
 After the completion of the training 
 `Training Compleated`
@@ -23,7 +23,7 @@ After the completion of the training
 
 For Testing the nlu model o to the Browser and just send a get request:
 
-3. ```http://127.0.0.1:8080/test?name=your query```
+3. ```http://127.0.0.1:5000/test?name=your query```
 
 
 

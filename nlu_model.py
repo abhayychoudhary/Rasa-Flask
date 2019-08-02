@@ -34,7 +34,7 @@ def train_nlu(data, configs, model_dir):
 # 	run_nlu()
 @app.route('/train')
 def traindata():
-	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
+	train_nlu('./data/data1.json', 'config_spacy.json', './models/nlu')
 	return "Training Compleated"
 
 

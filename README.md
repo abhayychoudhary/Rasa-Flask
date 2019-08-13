@@ -33,7 +33,6 @@ For Testing the nlu model o to the Browser and just send a get request:
 4. ```http://127.0.0.1:5000/test?name=your query```
 
 
-# `Procfile` Required for Hosting the app in HEROKU Nodejs app Engine
 
 
 

@@ -25,13 +25,6 @@ def train_nlu(data, configs, model_dir):
 	model_directory = trainer.persist(model_dir, fixed_model_name = 'weathernlu')
 	
 	
-# def run_nlu(question):
-# 	interpreter = Interpreter.load('./models/nlu/default/weathernlu')
-# 	test=str(interpreter.parse(question))
-# 	return test
-# if __name__ == '__main__':
-# 	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
-# 	run_nlu()
 @app.route('/train')
 def traindata():
 	train_nlu('./data/data1.json', 'config_spacy.json', './models/nlu')

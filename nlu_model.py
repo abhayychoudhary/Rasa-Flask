@@ -14,7 +14,6 @@ def api_hello():
 		interpreter = Interpreter.load('./models/nlu/default/weathernlu')
 		test=str(interpreter.parse(request.args['name']))
 		return test
-		# run_nlu(request.args['name'])
 	else:
 		return 'Please give a correct output'
 

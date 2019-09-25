@@ -21,7 +21,7 @@ The code is build with Flask which can be access by the Get API
 
 Training of the mode go to the browser and just send a get request:
 
-2. ``` http://127.0.0.1:5000/train ```
+3.``` http://127.0.0.1:5000/train ```
 
 After the completion of the training 
 `Training Compleated`

@@ -9,7 +9,7 @@ Rasa NLU and Rasa Core devs are doing an amazing job improving both of these lib
 
 Before you start please install the dependency library
 
-1. ```pip install -r requirements.txt```
+1.```pip install -r requirements.txt```
 
 ### To Execute the API in Flask
 

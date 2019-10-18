@@ -24,6 +24,7 @@ Training of the mode go to the browser and just send a get request:
 3.``` http://127.0.0.1:5000/train ```
 
 After the completion of the training 
+
 `Training Compleated`
 
 

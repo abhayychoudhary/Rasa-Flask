@@ -2,7 +2,6 @@
 
 Rasa NLU and Rasa Core devs are doing an amazing job improving both of these libraries which results in code changes for one method or another.
 
-
 ## How to use this code
 
 ### Installation
